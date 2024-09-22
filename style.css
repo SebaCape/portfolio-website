@@ -25,6 +25,11 @@
     color: #780116;
   }
 
+  h1
+  {
+    color: #780116;
+  }
+
   /* Smooth Transition */
   
   a, .btn
@@ -55,9 +60,9 @@
 
   a
   {
-    color: rgb(120, 61, 72);
+    color: #853745;
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: #c1707e;
   }
 
   a:hover
