@@ -1,0 +1,14 @@
+/* Displays stack menu format if screen is <1200px*/
+
+@media screen and (max-width: 1200px)
+{
+    #desktop-nav
+    {
+        display: none;
+    }
+
+    #stack-nav
+    {
+        display: flex;
+    }
+}
