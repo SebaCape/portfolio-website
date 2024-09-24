@@ -1,4 +1,4 @@
-/* Displays stack menu format if screen is <1200px*/
+/* Displays stack menu format if screen is <= 1200px*/
 
 @media screen and (max-width: 1200px)
 {
