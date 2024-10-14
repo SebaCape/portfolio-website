@@ -3,7 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* Basic Color Scheme #780116, #F7B538, #DB7C26, #D8572A, #C32F27 */
+/* Basic Color Scheme #dad7cd, #a3b18a, #588157, #3a5a40, #344e41 */
 
 * {
     margin: 0;
@@ -265,6 +265,7 @@
   }
 
   /* Buttons */
+
   .btn-container
   {
     display: fles;
@@ -301,6 +302,7 @@
   }
   
   /* About Section*/
+
   #about
   {
     position: relative;
@@ -351,6 +353,8 @@
   {
     gap: 4rem;
     height: 80%;
+    display: flex;
+    justify-content: center;
   }
 
   .section_pic-container
@@ -361,6 +365,7 @@
   }
 
   /* Experience Section */
+
   #experience
   {
     position: relative;
@@ -402,4 +407,91 @@
   article .icon
   {
     cursor: default;
+  }
+
+  /* Project Section */
+
+  #projects
+  {
+    position: relative;
+  }
+
+  .color-container
+  {
+    border-color: #780116;
+    background: #DB7C26;
+  }
+
+  .project-img
+  {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+  }
+
+  .project-title
+  {
+    margin: 1rem;
+    color: #780116;
+  }
+
+  .project-btn
+  {
+    color:#780116;
+    border-color: #780116;
+  }
+
+  /* Contacts */
+
+  #contact
+  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+  }
+
+  .contact-info-upper-container
+  {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(112,1,17);
+    border-color:#780116;
+    background:#DB7C26;
+    margin: 2rem auto;
+    padding: 0.5rem;
+  }
+
+  .contact-info-container
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+  }
+
+  .contact-info-container p
+  {
+    font-size: larger;
+  }
+
+  .contact-icon
+  {
+    cursor: default;
+    height: 3rem;
+  }
+
+  .email-icon
+  {
+    height: 3.6rem;
+  }
+
+  /* Footer Section */
+
+  footer
+  {
+    height: 26vh;
+    margin: 0 1rem;
   }
